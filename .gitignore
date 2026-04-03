@@ -6,3 +6,5 @@ riderModule.iml
 *.aux.xml
 .idea/.idea.Geotiff/.idea/
 Geotiff.sln.DotSettings.user
+Geotiff/Geotiff.csproj
+Geotiff.sln
