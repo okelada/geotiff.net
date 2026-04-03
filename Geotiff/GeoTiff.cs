@@ -252,10 +252,12 @@ public class GeoTiff
                 else
                 {
                     throw new GeoTiffTagTypeNotRecognisedException("Geo key tag type not recognised");
-                }
+                }  
+                
+                geoKeyDirectory[key] = valueToSet;
             }
 
-            geoKeyDirectory[key] = valueToSet;
+          
         }
 
         return geoKeyDirectory;
